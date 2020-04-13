@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8"> 
+    <title>ContactMe</title>
+    <link rel="stylesheet" href="./Bootstrap_4.3.1/css/bootstrap.css"
+  </head>
+  <header>
+    <div class="container">
+      <nav class="nav nav-pills nav-fill">
+        <a class="nav-item nav-link" href="index.html">Home</a>
+        <a class="nav-item nav-link" href="Hong_AboutMe.html">About Me</a>
+        <a class="nav-item nav-link" href="Hong_Resume.html">Resume</a>
+        <a class="nav-item nav-link" href="Hong_Projects.html">Projects</a>
+        <a class="nav-item nav-link active" href="Hong_ContactMe.html">Contact Me</a>
+      </nav>
+    </div>
+  </header>
+
+  <div class="container text-center">
+    <div class="jumbotron jumbotron-text" style="background-image: linear-gradient(blue,green)">
+        <h1><strong>Contact Me:</strong></h1>
+        <h6>Email: hong1537@mydusd.org</h6>
+        <p>Michael Hong: Dublin, California</p>
+      </div>
+    </div>
+
+<!---Form to fill out if you want to contact me. (Doesn't actually work)-->
+<!-- Part of code copied from Codecademy Learn HTML Lesson 3 Form Validation. -->
+<body>
+  <section class="container">
+    <div class="text-center">
+      <h5>Please respond with your name and your email so I can contact you when I am available.</h5>
+      <!-- Don't know what the method should be -->
+      <!-- Doesn't store the information anywhere  -->
+        <form action="Hong_Submission.html" method="GET">
+          <label for="username">Name:</label>
+				  <input id="username" name="username" type="text" required">
+          <br>
+          <label for="username">Email:</label> 
+				  <input id="username" name="email" type="text" required>
+          <br>
+          <br>
+          <label for="message">Message:</label>
+          <br>
+          <textarea rows="6" cols="45"> 
+          </textarea>
+          <br> 
+          <br>
+            <input type="submit" value="Submit">
+          <br>
+          <br>
+          <br>
+        </form>
+    </div>
+  </section>
+</body>
+
+
+<!-- Footer which contains the links to different websites -->
+<footer class="container">
+  <div class="jumbotron" style="background-image: linear-gradient(green,blue)">
+    <div class="row">
+      <div class="col-3" >
+        <a href="https://mail.google.com/mail/u/0/#inbox?compose=new" target="_blank"><img src="Images/Gmail.png" width="150" height="100" alt="Gmail"></a>
+      </div>
+      <div class="col-3">
+        <a href="https://www.youtube.com/channel/UCHSOqqJnHroc0MHjsplHItA" target="_blank"><img src="Images/Youtube.png" width="150" height="150" alt="youtube"></a>
+      </div>
+      <div class="col-5">
+        <a href="https://www.dublin.k12.ca.us/dhs" target="_blank">
+        <img class="float-right" src="Images/DHS2.png" height="120" width="120" alt="Dublin High School">
+        </a>
+      </div>
+    </div> 
+  </div>
+</footer>
